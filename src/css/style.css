@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+/* zerar os espacamentos*/
+
+/* comeco do header */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+#conteudo #menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7rem;
+  
+  
+}
+li{
+    
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+#user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+/* fim do header */
