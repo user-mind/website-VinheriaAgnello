@@ -5,130 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vinheria Agnello - Produtos</title>
     <link rel="stylesheet" href="./src/css/style_NossosVinhos.css">
+    <link rel="shortcut icon" href="src/assets/LogoAgnello.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+   
 </head>
 <body>
-    <div id="container">
-        <!-- CABEÇALHO -->
-        <header id="header">
-            <!-- Logo -->
-             <div id="logo">
-                <img src="./src/assets/LogoAgnello_NoBg.png" alt="Logo Vinheria Agnello">
-            <nav id="menu">
+    
+        
+    <header class="header">
+        <div id="conteudoheader">
+            <div class="logo">
+                <img src="./src/assets/LogoAgnello_NoBg.png" alt="Vinheria Agnello Logo" width="140">
+            </div>
+            <nav>
                 <ul>
-                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./index.html">Inicio</a></li>
                     <li><a href="./nossos_vinhos.html">Nossos Vinhos</a></li>
-                    <li><a href="./sobre.html">Sobre</a></li>
-                    <li><a href="./login.html"> <img src="./src/assets/Logos/logoProfile.svg"></a></li>
+                    <li><a href="./sobre_nos.html">Sobre</a></li>
                 </ul>
             </nav>
-            <div id="icones header">
-                <img id="logocarrinho" src="./src/assets/Logos/logoShoppingCart.svg" alt ="logo carrinho">
+            <div id="icones">
+                <a href="./login.html"><i class='bx bx-user-circle'></i></a>
+                <a href="#"><i class='bx bx-shopping-bag'></i></a>
             </div>
-        </header>
-
-        <div id="conteudo">
-            <h2 id="tituloconteudo">Vinhos Disponíveis</h2>
-
-            <!-- catálogo -->
-            <main>
-                <article class="produto">
-                    <img src="" alt="Vinho 1">
-                    <h3>Nome do vinho</h3>
-                    <p class="preço">R$ </p>
-                </article>
-
-                <article class="produto">
-                    <img src="" alt="Vinho 2">
-                    <h3>Nome do vinho</h3>
-                    <p class="preço">R$ </p>
-                </article>
-
-                <article class="produto">
-                    <img src="" alt="Vinho 3">
-                    <h3>Nome do vinho</h3>
-                    <p class="preço">R$ </p>
-                </article>
-
-                <article class="produto">
-                    <img src="" alt="Vinho 4">
-                    <h3>Nome do vinho</h3>
-                    <p class="preço">R$ </p>
-                </article>
-
-                <article class="produto">
-                    <img src="" alt="Vinho 5">
-                    <h3>Nome do vinho</h3>
-                    <p class="preço">R$ </p>
-                </article>
-
-                <article class="produto">
-                    <img src="" alt="Vinho 6">
-                    <h3>Nome do vinho</h3>
-                     <p class="preço">R$ </p>
-                </article>
-
-                <article class="produto">
-                    <img src="" alt="Vinho 7">
-                    <h3>Nome do vinho</h3>
-                    <p class="preço">R$ </p>
-                </article>
-
-                <article class="produto">
-                    <img src="" alt="Vinho 8">
-                    <h3>Nome do vinho</h3>
-                    <p class="preço">R$ </p>
-                </article>
-
-                <article class="produto">
-                    <img src="" alt="Vinho 9">
-                    <h3>Nome do vinho</h3>
-                    <p class="preço">R$ </p>
-                </article>
-
-                <article class="produto">
-                    <img src="" alt="Vinho 10">
-                    <h3>Nome do vinho</h3>
-                    <p class="preço">R$ </p>
-                </article>
-
-                <article class="produto">
-                    <img src="" alt="Vinho 11">
-                    <h3>Nome do vinho</h3>
-                    <p class="preço">R$ </p>
-                </article>
-
-                <article class="produto">
-                    <img src="" alt="Vinho 12">
-                    <h3>Nome do vinho</h3>
-                    <p class="preço">R$ </p>
-                </article>
-
-            </main>
-            <!-- filtros -->
-            <aside>
-                <div class="filtro">
-                    <h3>Preço</h3>
-                    <input type="range" min="0" max="1000">
-                </div>
-
-                <div class="filtro">
-                    <h3>Tipo do Vinho</h3>
-                    <label><input type="checkbox" name="tipo" value="tinto">Vinho Tinto</label>
-                    <label><input type="checkbox" name="tipo" value="branco">Vinho Branco</label>
-                    <label><input type="checkbox" name="tipo" value="rosé">Vinho Rosé</label>
-                    <label><input type="checkbox" name="tipo" value="espumante">Vinho Espumante</label>
-                </div>
-
-                <div class="filtro">
-                    <h3>Marca</h3>
-                    <label><input type="checkbox" name="marca" value="Saint-Germain">Saint Germain</label>
-                    <label><input type="checkbox" name="marca" value="Monte-Paschoal">Monte Paschoal</label>
-                    <label><input type="checkbox" name="marca" value="Don-Melchor">Don Melchor</label>
-                    <label><input type="checkbox" name="marca" value="Pizzato">Pizzato</label>
-                </div>
-            </aside>
         </div>
+    </header>
+
+    <div id="conteudo">   
+
+        <main id="catalogo">
+            <!-- catálogo -->
+
+            <article class="produto">
+                <img src="./src/assets/Catalogo/PizzatoDNA99.png" alt="Vinho Pizzato DNA99"/>
+                <h3 class="nome">Pizzato DNA 99</h3>
+                <p class="preço">R$ 8150,00</p>
+                
+            </article>
+        </main>
+
+
+        
+        <aside>
+            <!-- filtros lateral esquerda -->
+         
+        </aside>
     </div>
+
+        
+    <footer>
+        <!-- RODAPÉ -->
+    </footer>
+    
     
 </body>
 </html>
