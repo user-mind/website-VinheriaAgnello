@@ -201,5 +201,10 @@ header i:hover {
   transition: 0.5s;
 }
 
+.cardVinhos img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+
+}
 
 /* Final da Section */
