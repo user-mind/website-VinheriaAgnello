@@ -124,7 +124,7 @@ header i:hover {
 
 /* Início da Section 'Mais Vendidos' */
 .titulo {
-  margin: 4.8rem;
+  margin-top: 4.8rem;
   font-size: 70px;
   font-weight: bold;
   color: #fff;
@@ -197,7 +197,8 @@ header i:hover {
   color: #fff;
   cursor: pointer;
 }
-#btnVerTudo:not(:hover){
+
+#btnVerTudo:not(:hover) {
   transition: 0.5s;
 }
 
@@ -209,21 +210,68 @@ header i:hover {
 
 /* Final da Section 'Mais Vendidos' */
 
-/* Cards de Propaganda */
-.cardAd{
+/* começo dos Cards de Propaganda */
+.cardAd {
   display: flex;
   justify-content: center;
   gap: 101px;
 }
-.cardAd img{
+
+.cardAd img {
   border-radius: 21px;
 }
-.cardAd img:hover{
+
+.cardAd img:hover {
   transform: scale(1.1);
   transition: 0.5s;
 }
-.cardAd img:not(:hover){
-  transform: scale(1);
+
+.cardAd img:not(:hover) {
   transition: 0.5s;
 }
+
 /* Fim dos cards de propaganda */
+
+/* Começo Escolha pelo vinho */
+#buttonTipoVinho {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#buttonTipoVinho button {
+  display: flex;
+  margin-top: 1.25rem;
+  background-color: transparent;
+  border: 2px solid #71213E;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 60px;
+}
+
+#buttonTipoVinho i {
+  color: #71213E;
+}
+
+/* começo do Hover botão seção */
+#buttonTipoVinho button:hover {
+  transition: 0.5s;
+  background-color: #71213E;
+  cursor: pointer;
+}
+
+#buttonTipoVinho i:hover {
+  transition: 0.5s;
+  color: #fff;
+  cursor: pointer;
+}
+
+#buttonTipoVinho button:not(:hover) {
+  transition: 0.3s;
+}
+
+#buttonTipoVinho i:not(:hover) {
+  transition: 0.3s;
+}
+
+/* final do Hover botão seção */
