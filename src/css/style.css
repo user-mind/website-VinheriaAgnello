@@ -122,7 +122,7 @@ header i:hover {
 
 /* fim do header */
 
-/* Início da Section */
+/* Início da Section 'Mais Vendidos' */
 .titulo {
   margin: 4.8rem;
   font-size: 70px;
@@ -207,4 +207,23 @@ header i:hover {
 
 }
 
-/* Final da Section */
+/* Final da Section 'Mais Vendidos' */
+
+/* Cards de Propaganda */
+.cardAd{
+  display: flex;
+  justify-content: center;
+  gap: 101px;
+}
+.cardAd img{
+  border-radius: 21px;
+}
+.cardAd img:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.cardAd img:not(:hover){
+  transform: scale(1);
+  transition: 0.5s;
+}
+/* Fim dos cards de propaganda */
