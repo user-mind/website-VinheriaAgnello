@@ -77,7 +77,7 @@ i:hover{
   }
 
   .titulo{
-    margin:80px;
+    margin:180px;
      color:#fff;
      font-weight:bold;
      font-size: 40px;
@@ -88,7 +88,7 @@ i:hover{
   p{
     color:#fff;
     line-height: 2.0;
-     margin:80px;
+     margin:180px;
      margin-top: 1%;
      max-width: 600px;
      text-align: justify;
