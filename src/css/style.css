@@ -3,6 +3,10 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Outfit", sans-serif;
+<<<<<<< HEAD
+=======
+  overflow-x: hidden;
+>>>>>>> 688b8dd87e5faea5c365e246f54773ae76ae871a
 
 }
 
@@ -44,6 +48,7 @@ body {
   align-items: center;
   gap: 11rem;
 
+<<<<<<< HEAD
 }
 
 li {
@@ -275,3 +280,398 @@ header i:hover {
 }
 
 /* final do Hover botão seção */
+=======
+}
+
+li {
+
+  list-style: none;
+  font-size: 1.2rem;
+
+}
+
+#logo img {
+  width: 12rem;
+  height: 5.5rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 2rem;
+}
+
+header i {
+  font-size: 30px;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 25%;
+}
+
+header {
+  background-image: url('../assets/bg.filter.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#banner {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+}
+
+#banner h2 {
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+ul li a:hover {
+  color: #FFD700;
+  text-decoration: underline;
+  transition: 0.6s;
+}
+
+header i:hover {
+  color: #FFD700;
+  transition: 0.6s;
+  border: 1px solid #fff;
+  border-radius: 60%;
+
+}
+
+/* fim do header */
+
+/* Início da Section 'Mais Vendidos' */
+.titulo {
+  margin-top: 4.8rem;
+  font-size: 70px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+
+#secaoMaisVendidos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 118px;
+  margin: 8rem;
+}
+
+.cardVinhos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 322px;
+  height: 381px;
+  background-color: #080808;
+  box-shadow: 7px 7px 9px rgb(77, 22, 42, 0.5);
+  border-radius: 5%;
+}
+
+.cardVinhos img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 260px;
+  height: 260px;
+}
+
+.cardVinhos h3 {
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.cardVinhos p {
+  color: #FFD700;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+}
+
+.cardVinhos:hover {
+  transition: 1s;
+  border: 1px solid #ffd9009f;
+  cursor: pointer;
+}
+
+#btnVerTudo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  color: #71213E;
+  font-size: 25px;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: 3px solid #71213E;
+}
+
+#btnVerTudo:hover {
+  transition: 0.5s;
+  background-color: #71213E;
+  color: #fff;
+  cursor: pointer;
+}
+
+#btnVerTudo:not(:hover) {
+  transition: 0.5s;
+}
+
+.cardVinhos img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+
+}
+#vertudo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Final da Section 'Mais Vendidos' */
+
+/* começo dos Cards de Propaganda */
+.cardAd {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  overflow-y: hidden;
+  margin: 0 5rem;
+  margin-top: 5rem;
+  height: 300px;
+
+}
+
+.cardAd img {
+  border-radius: 21px;
+  width: 25%;
+  height: 70%; 
+  margin-top: 1.2rem;
+
+}
+
+.cardAd img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.cardAd img:not(:hover) {
+  transition: 0.5s;
+}
+
+/* Fim dos cards de propaganda */
+
+/* Começo Escolha pelo vinho */
+#buttonTipoVinho {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#buttonTipoVinho button {
+  display: flex;
+  margin-top: 1.25rem;
+  background-color: transparent;
+  border: 2px solid #71213E;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 60px;
+}
+
+#buttonTipoVinho i {
+  color: #71213E;
+}
+
+/* começo do Hover botão seção */
+#buttonTipoVinho button:hover {
+  transition: 0.5s;
+  background-color: #71213E;
+  cursor: pointer;
+}
+
+#buttonTipoVinho i:hover {
+  transition: 0.5s;
+  color: #fff;
+  cursor: pointer;
+}
+
+#buttonTipoVinho button:not(:hover) {
+  transition: 0.3s;
+}
+
+#buttonTipoVinho i:not(:hover) {
+  transition: 0.3s;
+}
+
+/* final do Hover botão seção */
+
+/* Começando Footer */
+footer {
+  width: 100vw;
+  height: 40vh;
+  background-color: #1C0810;
+  color: #fff;
+  overflow-y: hidden;
+}
+#teste{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  max-height: 100%;
+  height: 100%;
+  gap: 15rem;
+  width: 100%;
+  
+  
+}
+#hr{
+  width: 0.001%;
+  height: 80%;
+  background-color: #fff;
+  margin-top: 2rem;
+  margin-bottom: 13px;
+}
+#faq {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 5rem;
+  gap: 20px;
+  items-align: center;
+  width: 50%;
+
+}
+
+#faq h2 {
+  font-weight: bold;
+  font-size: 26px;
+  letter-spacing: 1px;
+}
+
+#faq h4 {
+  font-weight: 500;
+  font-size: 15px;
+  width: 100%;
+  white-space: nowrap;
+}
+
+#faq p {
+  font-weight: lighter;
+  font-size: 17px;
+}
+
+#promocoes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  items-align: center;
+  margin-right: 10rem;
+  width: 35%;
+}
+
+#promocoes img {
+  display: block;
+  margin-left: 56px;
+  width: 250px;
+}
+
+#promocoes h2 {
+  font-size:18px;
+  font-weight: 500;
+  margin-bottom: 26px;
+  white-space: nowrap
+}
+
+#promocoes div {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+}
+
+#promocoes input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  height: 51px;
+  font-size: 19px;
+  width: 80%;
+
+}
+
+#btnEnviarEmail {
+  width: 3.1rem;
+  height: 3.1rem;
+  border-radius: 100%;
+  border: 3px solid #fff;
+  background-color: transparent;
+  font-size: 25px;
+}
+#email i{
+  color: #fff;
+  font-size: 25px;
+
+  text-align: center;
+}
+#email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  border-radius: 13px;
+  border: 2px solid #fff;
+  gap: 10px;
+
+
+  
+}
+#btnEnviarEmail i {
+  display: block;
+  margin: auto;
+  color: #fff;
+}
+
+#btnEnviarEmail:hover {
+  transition: 0.5s;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#btnEnviarEmail i:hover {
+  transition: 0.5s;
+  color: #000;
+  cursor: pointer;
+}
+
+#btnEnviarEmail:not(:hover) {
+  transition: 0.3s;
+}
+
+#btnEnviarEmail i:not(:hover) {
+  transition: 0.3s;
+}
+>>>>>>> 688b8dd87e5faea5c365e246f54773ae76ae871a

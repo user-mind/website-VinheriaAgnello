@@ -1,5 +1,197 @@
+<<<<<<< HEAD
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  overflow-y: hidden;
+}
+
+/*degrade fundo*/
+
+body {
+  padding: 20px;
+  color: #fff;
+  background: linear-gradient(to right, #9b2f56 40%, #080808 50%);
+  display: flex;
+}
+
+/*organizando o conteudo*/
+
+#conteudo {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  padding: 40px;
+  grid-template-columns: 1fr 200px; /*divide a tela em colunas*/
+
+  /*lado esquerdo*/
+}
+#mensagem {
+  align-content: center;
+  width: 50%;
+  padding-bottom: 50px;
+}
+
+#bem_vindo {
+  font-size: 4.5rem;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  font-weight: bold;
+}
+
+#paragrafo {
+  padding-left: 30px;
+  font-size: 1.2rem;
+}
+
+/* lado direito  */
+
+#ladodireito {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* parte do login  */
+#botão_voltar button {
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  color: #fff;
+  background-color: #080808;
+  font-weight: semi-bold;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #fff;
+  padding: 5px 10px;
+}
+
+#botão_voltar button:hover {
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  color: rgb(251, 255, 0);
+  background-color: #080808;
+  font-weight: semi-bold;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid rgb(251, 255, 0);
+  padding: 5px 10px;
+}
+
+#login {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#login h2 {
+  font-size: 2.5rem;
+  padding-bottom: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* estilizando os inputs*/
+.dados input {
+  padding: 12px 15px 12px 40px;
+  width: 400px;
+  display: block;
+  border-radius: 7px;
+  border: 3px solid grey;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: #080808;
+  font-size: 1rem;
+  background-size: 25px;
+  background-position: 8px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  outline: none;
+  color: #fff;
+}
+
+/* input email com icone */
+.dados input[type="email"] {
+  background-image: url("../assets/Logos/logoEmail.svg");
+}
+
+/* input senha com icone */
+.dados input[type="password"] {
+  background-image: url("../assets/Logos/logoLock.svg");
+}
+
+/* botão entrar  */
+#botão_entrar button {
+  background-color: #71213e;
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 12px 80px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+#botão_entrar button:hover {
+  border: 1px solid rgb(251, 255, 0);
+  opacity: 0.7;
+  transition: 0.5s;
+}
+#botão_entrar button:not(:hover) {
+  opacity: 1;
+  transition: 0.5s;
+}
+#opçoes {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  font-size: 1rem;
+}
+
+#opçoes a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+#opçoes a:hover {
+color:#FFD700;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: 0.5s;
+  text-decoration: underline;
+}
+
+/* parte para cadastrar-se */
+
+#cadastro {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  width: 400px;
+  font-size: 1rem;
+}
+
+#cadastro a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#cadastro a:hover {
+  text-decoration: none;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+#cadastro span a{
+color:#FFD700;
+>>>>>>> 688b8dd87e5faea5c365e246f54773ae76ae871a
 }
