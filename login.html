@@ -1,41 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="src/assets/LogoAgnello.png">
     <link rel="stylesheet" href="./src/css/style_Login.css">
-    <title>Login - Vinheria Agnello</title>
+    <title>Cadastre-se na Vinheria Agnello</title>
 </head>
+
 <body>
     <main id="conteudo">
-
         <!-- conteudo lado esquerdo -->
         <div id="mensagem">
-            <h1 id="bem_vindo">Bem Vindo!</h1>
-            <p id="paragrafo">O vinho ideal. A orientação certa. Tudo na sua tela.</p>
+            <h1>Bem Vindo!</h1>
+            <p>O vinho ideal. A orientação certa. Tudo na sua tela.</p>
         </div>
-
         <!-- conteudo lado direito -->
-
         <div id="ladodireito">
-
             <!-- botão para voltar ao home -->
-            <div id="botão_voltar">
-                <button onclick="location='./index.html'">↩ Retornar ao Inicio</button>
+            <div id="botao_voltar">
+                <i class='bx bx-chevrons-left'></i>
+                <button onclick="location='./index.html'">Retornar ao Inicio</button>
             </div>
-                 <!-- fazer login   -->
+            <!-- fazer login   -->
             <div id="login">
-                <h2>Faça seu login</h2>
+                <h2>Cadastre-se</h2>
                 <div class="dados">
-                    <input type = "email" id="email" placeholder="Email">
-                    <input type = "password" id="senha" placeholder="Senha">
+                    <input type="email" id="email" placeholder="Email" maxlength="50">
+                    <input type="password" id="senha" placeholder="Senha" maxlength="20">
                 </div>
-                
             </div>
-
             <div id="opçoes">
-                <label id="checkbox_container"><input type="checkbox"/> Mostrar Senha</label>
+                <label id="chk_container"><input type="checkbox" /> Mostrar Senha</label>
                 <a href="#">Esqueceu a senha?</a>
             </div>
             <!-- botão para fazer login -->
@@ -44,18 +42,10 @@
             </div>
             <div id="cadastro">
                 <p>Já possuí uma conta?</p>
-                <span><a href="#">Faça o seu login!</a> </span>
+                <span><a href="#">Faça o seu login.</a> </span>
             </div>
-            
         </div>
-    </main>   
-    
-    <footer>
-
-    </footer>
-
-    
-
-    
+    </main>
 </body>
+
 </html>
