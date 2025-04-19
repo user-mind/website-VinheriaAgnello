@@ -318,7 +318,8 @@ footer {
 
 #faq h2 {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 26px;
+  letter-spacing: 1px;
 }
 
 #faq h4 {
