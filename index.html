@@ -1,55 +1,130 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinheria Agnello</title>
     <link rel="shortcut icon" href="src/assets/LogoAgnello.png">
     <link rel="stylesheet" href="src/css/style.css">
-    <title>Vinheria Agnello</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    
-    <header>
-    <nav class="navbar">
-        <div id="logo">
-            <h2>
-                <img src="src/assets/LogoAgnello_NoBg.png" width="120">
-            </h2>
+
+    <header id="header">
+        <nav class="navbar">
+            <div id="logo">
+                <h2>
+                    <img src="src/assets/LogoAgnello_NoBg.png" width="120">
+                </h2>
+            </div>
+            <div id="conteudo">
+                <ul id="menu">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="nossos_vinhos.html">Nossos Vinhos</a></li>
+                    <li><a href="sobre_nos.html">Sobre</a></li>
+                </ul>
+            </div>
+            <div id="user">
+                <a href="login.html"><i class='bx bx-user-circle'></i></a>
+                <a href="#"><i class='bx bx-shopping-bag'></i></a>
+            </div>
+        </nav>
+        <div id="banner">
+            <h2>A arte de harmonizar momentos.</h2>
         </div>
-        <div id="conteudo">
-            <ul id="menu">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="nossos_vinhos.html">Nossos Vinhos</a></li>
-                <li><a href="sobre_nos.html">Sobre</a></li>
-            </ul>
-        </div>
-        <div id="user">
-            <button>
-                <img src="src/assets/Logos/logoProfile.svg" alt="Perfil">
-            </button>
-            <button>
-                <img src="src/assets/Logos/logoShoppingCart.svg" alt="Perfil">
-            </button>
-        </div>
-    </nav>
-    
     </header>
-    
+
     <section>
         <!-- conteudo com imagem-->
+        <h1 class="titulo">Mais Vendidos</h1>
+        <div id="secaoMaisVendidos">
+            <!-- Vinho Tinto -->
+            <div class="cardVinhos">
+                <img class="imagemCard" src="src/assets/vinho_tinto.png" alt="Vinho Tinto">
+                <hr>
+                <h3 class="subtituloVinho">Vinho Country Wine</h3>
+                <p class="precoVinho">R$ 119,99</p>
+            </div>
+            <!-- Vinho Branco -->
+            <div class="cardVinhos">
+                <img src="src/assets/vinho_branco.png" alt="Vinho Branco">
+                <hr>
+                <h3>Vinho Branco Resevervado</h3>
+                <p>R$ 89,99</p>
+            </div>
+            <!-- Vinho Rose -->
+            <div class="cardVinhos">
+                <img src="src/assets/vinho_rose.png" alt="Vinho Rosé">
+                <hr>
+                <h3>Vinho Rosé Naturelle</h3>
+                <p>R$ 109,99</p>
+            </div>
+            <!-- Vinho Espumante -->
+            <div class="cardVinhos">
+                <img src="src/assets/vinho_espumante.png" alt="Vinho Espumante">
+                <hr>
+                <h3>Vinho Quinta do Morgado</h3>
+                <p>R$ 149,99</p>
+            </div>
+            <!-- Vinhos Ilustrativos -->
+            <div class="cardVinhos">
+                <img src="src/assets/VinhoDefault.jpg" alt="Vinho Padrão">
+                <hr>
+                <h3>Nome do Vinho</h3>
+                <p>R$ 000,00</p>
+            </div>
+            <!-- Vinhos Ilustrativos -->
+            <div class="cardVinhos">
+                <img src="src/assets/VinhoDefault.jpg" alt="Vinho Padrão">
+                <hr>
+                <h3>Nome do Vinho</h3>
+                <p>R$ 000,00</p>
+            </div>
+            <!-- Vinhos Ilustrativos -->
+            <div class="cardVinhos">
+                <img src="src/assets/VinhoDefault.jpg" alt="Vinho Padrão">
+                <hr>
+                <h3>Nome do Vinho</h3>
+                <p>R$ 000,00</p>
+            </div>
+            <!-- Vinhos Ilustrativos -->
+            <div class="cardVinhos">
+                <img src="src/assets/VinhoDefault.jpg" alt="Vinho Padrão">
+                <hr>
+                <h3>Nome do Vinho</h3>
+                <p>R$ 000,00</p>
+            </div>
+            <a href="nossos_vinhos.html" id="btnVerTudo"><i class='bx bx-collection'></i> Ver Tudo</a>
+        </div>
     </section>
     <main>
-    <article>
-        <!-- Mais vendidos-->
-
-    </article>
-    <!-- cupom de desconto-->
-    <article>
-    <!-- Escolha de vinho-->
-    </article>
-    <footer>
-    <!-- footer neh gente-->
-</footer>
-</main>
+        <article>
+            <!-- cupom de desconto-->
+            <div class="cardAd">
+                <img src="src/assets/Ad1_CupomVIP.jpg" alt="Cupons VIP até 30% off" title="Assine Já!">
+                <img src="src/assets/Ad2_seTorneVip.jpg" alt="Torne-se um Agnello VIP! 12x de R$19,99"
+                    title="Se torne agora!">
+                <img src="src/assets/Ad3_frete.jpg" alt="Frete Grátis na primeira compra" title="Compre já!">
+            </div>
+        </article>
+        <article>
+            <!-- Escolha pelo vinho-->
+            <h1 class="titulo">Escolha pelo Vinho</h1>
+            <div id="buttonTipoVinho">
+                <button><i class='bx bx-chevron-left'></i></button>
+                <button><i class='bx bx-chevron-right'></i></button>
+            </div>
+        </article>
+        <footer>
+            <!-- footer neh gente-->
+        </footer>
+    </main>
 </body>
+
 </html>

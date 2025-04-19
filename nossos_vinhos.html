@@ -3,9 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vinheria Agnello - Produtos</title>
+    <link rel="stylesheet" href="./src/css/style_NossosVinhos.css">
+    <link rel="shortcut icon" href="src/assets/LogoAgnello.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+   
 </head>
 <body>
+    
+        
+    <header class="header">
+        <div id="conteudoheader">
+            <div class="logo">
+                <img src="./src/assets/LogoAgnello_NoBg.png" alt="Vinheria Agnello Logo" width="140">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./nossos_vinhos.html">Nossos Vinhos</a></li>
+                    <li><a href="./sobre_nos.html">Sobre</a></li>
+                </ul>
+            </nav>
+            <div id="icones">
+                <a href="./login.html"><i class='bx bx-user-circle'></i></a>
+                <a href="#"><i class='bx bx-shopping-bag'></i></a>
+            </div>
+        </div>
+    </header>
+
+    <h1 class="titulo">Vinhos disponíveis</h1>
+    
+    <div id="conteudo">   
+        
+        <aside class="filtros_container">
+            <!-- FILTRO -->
+            <div class="filtro">
+                <!-- PREÇO -->
+                <h2 class="titulodosfiltros">Preço</h2>
+                    
+                <input type="range" id="preco" name="preco" min="0" max="2000" value="0">
+
+                <!-- FILTROS CHECKBOX -->
+
+                <div class="filtrocheckbox">
+                    <h3 class="titulodosfiltros">Tipo do vinho</h3>
+                    <ul>
+                        <li><input type="checkbox" id="tinto" name="tinto"><label for="tinto">Tinto</label></li>
+                        <li><input type="checkbox" id="branco" name="branco"><label for="branco">Branco</label></li>
+                        <li><input type="checkbox" id="rose" name="rose"><label for="rose">Rosé</label></li>
+                        <li><input type="checkbox" id="espumante" name="espumante"><label for="espumante">Espumante</label></li>
+                    </ul>
+                </div>
+                <div class="filtrocheckbox">
+                    <h3 class="titulodosfiltros">Marcas</h3>
+                    <ul>
+                        <li><input type="checkbox" id="pizzato" name="pizzato"><label for="pizzato">Pizzato</label></li>
+                        <li><input type="checkbox" id="saint" name="saint"><label for="saint">Saint</label></li>
+                        <li><input type="checkbox" id="fausto" name="fausto"><label for="fausto">Fausto</label></li>
+                        <li><input type="checkbox" id="don" name="don"><label for="don">Don</label></li>
+                    </ul>
+                
+         
+        </aside>
+
+
+        <main id="catalogo">
+            <!-- catálogo -->
+
+            <article class="produto">
+                <img src="./src/assets/Catalogo/PizzatoDNA99.png" alt="Vinho Pizzato DNA99"/>
+            <div class="informacoes">
+                <h3 class="nome">Pizzato DNA 99</h3>
+                <p class="preço">R$ 8150,00</p>
+            </div>
+            </article>
+
+            <article class="produto">
+                <img src="./src/assets/Catalogo/DonCarbenetSauvignon.png" alt="Don Carbenet Sauvignon"/>
+            <div class="informacoes">
+                <h3 class="nome">Dom Carbenet</h3>
+                <p class="preço">R$ 8150,00</p>
+            </div>
+            </article>
+
+            <article class="produto">
+                <img src="./src/assets/Catalogo/EspumanteSaintBrut.png" alt="Espumante Saint Brut"/>
+            <div class="informacoes">
+                <h3 class="nome">Espumante Saint Brut</h3>
+                <p class="preço">R$ 8150,00</p>
+            </div>
+            </article>
+
+            <article class="produto">
+                <img src="./src/assets/Catalogo/FaustoMerlotRose.png" alt="Vinho Pizzato DNA99"/>
+            <div class="informacoes">    
+                <h3 class="nome">Fausto Merlot Rose</h3>
+                <p class="preço">R$ 8150,00</p>
+            </div>
+            </article>
+
+            <article class="produto">
+                <img src="./src/assets/Catalogo/frisanteMoscato_branco.png" alt="Vinho Pizzato DNA99"/>
+            <div class="informacoes">
+                <h3 class="nome">Frisante Moscato</h3>
+                <p class="preço">R$ 8150,00</p>
+            </div>
+            </article>
+
+            <article class="produto">
+                <img src="./src/assets/Catalogo/FrisanteSaintFrisantissimoRose.png" alt="Vinho Pizzato DNA99"/>
+            <div class="informacoes">
+                <h3 class="nome">Pizzato DNA 99</h3>
+                <p class="preço">R$ 8150,00</p>
+            </div>
+            </article>
+
+            <article class="produto">
+                <img src="./src/assets/Catalogo/MonteBrut187ml.png" alt="Vinho Pizzato DNA99"/>
+            <div class="informacoes">
+                <h3 class="nome">Pizzato DNA 99</h3>
+                <p class="preço">R$ 8150,00</p>
+            </div>
+            </article>
+
+            <article class="produto">
+                <img src="./src/assets/Catalogo/MonteBrutRose.png" alt="Vinho Pizzato DNA99"/>
+            <div class="informacoes">
+                <h3 class="nome">Pizzato DNA 99</h3>
+                <p class="preço">R$ 8150,00</p>
+            </div>
+            </article>
+
+            <article class="produto">
+                <img src="./src/assets/Catalogo/PizzatoBrutBranco.png" alt="Vinho Pizzato DNA99"/>
+            <div class="informacoes">   
+                <h3 class="nome">Pizzato DNA 99</h3>
+                <p class="preço">R$ 8150,00</p>
+            </div>  
+            </article>
+
+            <article class="produto">
+                <img src="./src/assets/Catalogo/pizzatoLegno.png" alt="Vinho Pizzato DNA99"/>
+            <div class="informacoes">
+                <h3 class="nome">Pizzato DNA 99</h3>
+                <p class="preço">R$ 8150,00</p>
+            </div>
+            </article>
+
+            <article class="produto">
+                <img src="./src/assets/Catalogo/reservaCarbenetSauvignon.png" alt="Vinho Pizzato DNA99"/>
+            <div class="informacoes">
+                <h3 class="nome">Pizzato DNA 99</h3>
+                <p class="preço">R$ 8150,00</p>
+            </div>
+            </article>
+
+            <article class="produto">
+                <img src="./src/assets/Catalogo/SaintFrisanteTinto.png" alt="Vinho Pizzato DNA99"/>
+            <div class="informacoes">
+                <h3 class="nome">Pizzato DNA 99</h3>
+                <p class="preço">R$ 8150,00</p>
+            </div>
+            </article>
+
+        </main>
+
+    </div>
+
+        
+    <footer>
+        <!-- RODAPÉ -->
+    </footer>
+    
     
 </body>
 </html>
