@@ -201,8 +201,7 @@ i:hover{
 .nome{
     font-size: 1.3rem;
     margin: 0 0 10px 0;
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
 
 /*preço*/
@@ -210,8 +209,78 @@ i:hover{
 .preço{
     color:rgb(251, 255, 0);
     font-size: 1rem;
-    margin: 0;
-     
+    margin: 0; 
 }
 
+/* footer */
 
+.footer {
+    background: #1C0810;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.faq{
+    border-right: 2px solid grey;
+    padding-right: 300px; /*deixar a dividoria no meio*/
+    padding-left: 50px;
+
+}
+
+.faq h2{
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.faq ul{
+    list-style: none;
+    padding: 0;
+}
+.faq ul li{
+    margin-bottom: 8px;
+   
+}
+
+.faq ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    
+}
+#newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#newsletter img{
+    width: 200px;
+    margin-bottom: 10px; 
+}
+
+#newsletter p{
+    font-size: 1.3rem;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#newsletter input[type="email"]{
+    background-color: #1C0810;
+    background-image: url('../assets/Logos/logoEmail.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 25px;
+    padding: 5px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+}
