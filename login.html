@@ -3,41 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style_Login.css">
     <title>Document</title>
 </head>
 <body>
-    <div id="conteudo">
+    <main id="conteudo">
 
         <!-- conteudo lado esquerdo -->
         <div id="mensagem">
-            <h1 id="bem vindo">Bem Vindo!</h1>
-            <p>O vinho ideal. A orientação certa. Tudo na sua tela.</p>
+            <h1 id="bem_vindo">Bem Vindo!</h1>
+            <p id="paragrafo">O vinho ideal. A orientação certa. Tudo na sua tela.</p>
         </div>
 
         <!-- conteudo lado direito -->
-        <div id="fazerlogin">
-            <h2>Faça seu login</h2>
-            <input type = "email" id="email" placeholder="Email">
-            <input type = "password" id="senha" placeholder="Senha">
-            <button id="entrar">Entrar</button>
-        </div>
 
-        <div id="opçoes">
-            <input type="checkbox"/> Mostrar Senha
-            <a href="#">Esqueceu a senha?</a>
-        </div>
-        <div id="botão">
-            <button id="login">Login</button>
-        </div>
+        <div id="ladodireito">
 
-        <!-- conteudo do cadastro -->
-        <div id="cadastro">
-            <p>Não possui conta?</p>
-            <a id="criarconta" href="#">Crie sua conta</a>
-            </p>
+            <!-- botão para voltar ao home -->
+            <div id="botão_voltar">
+                <button onclick="location='./index.html'">↩ Retornar ao Inicio</button>
+            </div>
+                 <!-- fazer login   -->
+            <div id="login">
+                <h2>Faça seu login</h2>
+                <div class="dados">
+                    <input type = "email" id="email" placeholder="Email">
+                    <input type = "password" id="senha" placeholder="Senha">
+                </div>
+                
+            </div>
+
+            <div id="opçoes">
+                <label><input type="checkbox"/> Mostrar Senha</label>
+                <a href="#">Esqueceu a senha?</a>
+            </div>
+            <!-- botão para fazer login -->
+            <div id="botão_entrar">
+                <button>Entrar</button>
+            </div>
+            <div id="cadastro">
+                <p>Não possui conta?</p>
+                <a href="#">Crie sua conta</a>
+            </div>
+            
         </div>
+    </main>   
+    
+    <footer>
 
+    </footer>
 
-    </main>
+    
+
+    
 </body>
 </html>
