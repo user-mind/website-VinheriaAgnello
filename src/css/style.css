@@ -208,6 +208,13 @@ header i:hover {
   transition: 0.5s;
 
 }
+#vertudo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 
 /* Final da Section 'Mais Vendidos' */
 
@@ -215,13 +222,20 @@ header i:hover {
 .cardAd {
   display: flex;
   justify-content: center;
-  gap: 101px;
+  gap: 10rem;
   overflow-y: hidden;
+  margin: 0 5rem;
+  margin-top: 5rem;
+  height: 300px;
+
 }
 
 .cardAd img {
   border-radius: 21px;
   width: 25%;
+  height: 70%; 
+  margin-top: 1.2rem;
+
 }
 
 .cardAd img:hover {
@@ -339,13 +353,13 @@ footer {
   justify-content: center;
   flex-direction: column;
   items-align: center;
-  margin-right: 7rem;
-  width: 50%;
+  margin-right: 10rem;
+  width: 35%;
 }
 
 #promocoes img {
   display: block;
-  margin-left: 50px;
+  margin-left: 56px;
   width: 250px;
 }
 
