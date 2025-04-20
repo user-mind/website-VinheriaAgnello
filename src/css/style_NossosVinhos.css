@@ -445,3 +445,54 @@ footer {
 .direitos {
     margin-top: 20px;
 }
+
+@media (max-width: 883px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar ul li{
+        padding: 3px 0px;
+    }
+
+    #conteudoheader #menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 0rem;
+    }
+
+    #logo img {
+        width: 10rem;
+        height: 4.5rem;
+    }
+
+    .titulo {
+        display: flex;
+        padding-left: 20px;
+    }
+
+    .filtrocheckbox ul li{
+        padding: 0px 5px 0px 0px;
+        display: flex;  
+    }
+
+    #catalogo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+   
+
+    footer {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        max-width: auto;
+        gap:0px;  
+        margin: 0px;
+        padding: 0px;
+    }
+    
+}
