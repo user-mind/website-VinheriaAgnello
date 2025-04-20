@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,55 +9,55 @@
     <link rel="shortcut icon" href="src/assets/LogoAgnello.png">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-   
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    
-        
-    <header class="header">
-        <div id="conteudoheader">
-            <div class="logo">
-                <img src="./src/assets/LogoAgnello_NoBg.png" alt="Vinheria Agnello Logo" width="140">
+    <header id="header">
+        <nav class="navbar">
+            <div id="logo">
+                <h2>
+                    <img src="src/assets/LogoAgnello_NoBg.png" width="120">
+                </h2>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="./index.html">Inicio</a></li>
-                    <li><a href="./nossos_vinhos.html">Nossos Vinhos</a></li>
-                    <li><a href="./sobre_nos.html">Sobre</a></li>
+            <div id="conteudoheader">
+                <ul id="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Nossos Vinhos</a></li>
+                    <li><a href="sobre_nos.html">Sobre</a></li>
                 </ul>
-            </nav>
-            <div id="icones">
-                <a href="./login.html"><i class='bx bx-user-circle'></i></a>
+            </div>
+            <div id="user">
+                <a href="login.html"><i class='bx bx-user-circle'></i></a>
                 <a href="#"><i class='bx bx-shopping-bag'></i></a>
             </div>
-        </div>
+        </nav>
     </header>
 
     <h1 class="titulo">Vinhos disponíveis</h1>
-    
-    <div id="conteudo">   
-        
+
+    <div id="conteudo">
         <aside class="filtros_container">
             <!-- FILTRO -->
             <div class="filtro">
                 <!-- PREÇO -->
                 <h2 class="titulodosfiltros">Preço</h2>
-                    
-                <input type="range" id="preco" name="preco" min="0" max="2000" value="0">
-
+                <input type="range" id="preco" name="preco" min="0" max="2000" class="slider">
                 <!-- FILTROS CHECKBOX -->
-
+                <hr>
                 <div class="filtrocheckbox">
                     <h3 class="titulodosfiltros">Tipo do vinho</h3>
                     <ul>
                         <li><input type="checkbox" id="tinto" name="tinto"><label for="tinto">Tinto</label></li>
                         <li><input type="checkbox" id="branco" name="branco"><label for="branco">Branco</label></li>
                         <li><input type="checkbox" id="rose" name="rose"><label for="rose">Rosé</label></li>
-                        <li><input type="checkbox" id="espumante" name="espumante"><label for="espumante">Espumante</label></li>
+                        <li><input type="checkbox" id="espumante" name="espumante"><label
+                                for="espumante">Espumante</label></li>
                     </ul>
                 </div>
+                <hr>
                 <div class="filtrocheckbox">
                     <h3 class="titulodosfiltros">Marcas</h3>
                     <ul>
@@ -65,133 +66,133 @@
                         <li><input type="checkbox" id="fausto" name="fausto"><label for="fausto">Fausto</label></li>
                         <li><input type="checkbox" id="don" name="don"><label for="don">Don</label></li>
                     </ul>
-                
-         
+                </div>
+            </div>
         </aside>
 
+        <div id="catalogo">
+            <main>
+                <!-- catálogo -->
+                <article class="cardVinhos">
+                    <img src="./src/assets/Catalogo/PizzatoDNA99_vinhoTinto.png" alt="Vinho Pizzato DNA99" />
+                    <hr>
+                    <h3>Pizzato DNA 99</h3>
+                    <p>R$ 229,99</p>
+                </article>
 
-        <main id="catalogo">
-            <!-- catálogo -->
+                <article class="cardVinhos">
+                    <img src="./src/assets/Catalogo/DonCarbenet_vinhoTinto.png" alt="Don Carbenet Sauvignon" />
+                    <hr>
+                    <h3>Dom Carbenet</h3>
+                    <p>R$ 1.299,99</p>
+                </article>
 
-            <article class="produto">
-                <img src="./src/assets/Catalogo/PizzatoDNA99.png" alt="Vinho Pizzato DNA99"/>
-            <div class="informacoes">
-                <h3 class="nome">Pizzato DNA 99</h3>
-                <p class="preço">R$ 234,46</p>
-            </div>
-            </article>
+                <article class="cardVinhos">
+                    <img src="./src/assets/Catalogo/SaintBrut_espumante.png" alt="Espumante Saint Brut" />
+                    <hr>
+                    <h3>Espumante Saint Brut</h3>
+                    <p>R$ 189,99</p>
+                </article>
 
-            <article class="produto">
-                <img src="./src/assets/Catalogo/DonCarbenetSauvignon.png" alt="Don Carbenet Sauvignon"/>
-            <div class="informacoes">
-                <h3 class="nome">Dom Carbenet</h3>
-                <p class="preço">R$ 1.298,00</p>
-            </div>
-            </article>
+                <article class="cardVinhos">
+                    <img src="./src/assets/Catalogo/FaustoMerlot_vinhoRose.png" alt="Fausto Merlot Rose" />
+                    <hr>
+                    <h3>Fausto Merlot Rose</h3>
+                    <p>R$ 105,00</p>
+                </article>
 
-            <article class="produto">
-                <img src="./src/assets/Catalogo/EspumanteSaintBrut.png" alt="Espumante Saint Brut"/>
-            <div class="informacoes">
-                <h3 class="nome">Espumante Saint Brut</h3>
-                <p class="preço">R$ 187,40</p>
-            </div>
-            </article>
+                <article class="cardVinhos">
+                    <img src="./src/assets/Catalogo/frisanteMoscato_vinhoBranco.png" alt="Frisante Moscato" />
+                    <hr>
+                    <h3>Frisante Moscato</h3>
+                    <p>R$ 99,99</p>
+                </article>
 
-            <article class="produto">
-                <img src="./src/assets/Catalogo/FaustoMerlotRose.png" alt="Fausto Merlot Rose"/>
-            <div class="informacoes">    
-                <h3 class="nome">Fausto Merlot Rose</h3>
-                <p class="preço">R$ 105,00</p>
-            </div>
-            </article>
+                <article class="cardVinhos">
+                    <img src="./src/assets/Catalogo/FrisanteSaintFrisantissimo_vinhoRose.png" alt="Frisantissimo Rose" />
+                    <hr>
+                    <h3>Frisantissimo Rose</h3>
+                    <p>R$ 299,99</p>
+                </article>
 
-            <article class="produto">
-                <img src="./src/assets/Catalogo/frisanteMoscato_branco.png" alt="Frisante Moscato"/>
-            <div class="informacoes">
-                <h3 class="nome">Frisante Moscato</h3>
-                <p class="preço">R$ 92,57</p>
-            </div>
-            </article>
+                <article class="cardVinhos">
+                    <img src="./src/assets/Catalogo/MonteBrut_vinhoEspumante.png" alt="Monte Brut 187ml" />
+                    <hr>
+                    <h3>Monte Brut 187ml</h3>
+                    <p>R$ 169,99</p>
+                </article>
 
-            <article class="produto">
-                <img src="./src/assets/Catalogo/FrisanteSaintFrisantissimoRose.png" alt="Frisantissimo Rose"/>
-            <div class="informacoes">
-                <h3 class="nome">Frisantissimo Rose</h3>
-                <p class="preço">R$ 320,87</p>
-            </div>
-            </article>
+                <article class="cardVinhos">
+                    <img src="./src/assets/Catalogo/MonteBrut_vinhoRose.png" alt="Monte Brut Rose" />
+                    <hr>
+                    <h3>Monte Brut Rose</h3>
+                    <p>R$ 119,99</p>
+                </article>
 
-            <article class="produto">
-                <img src="./src/assets/Catalogo/MonteBrut187ml.png" alt="Monte Brut 187ml"/>
-            <div class="informacoes">
-                <h3 class="nome">Monte Brut 187ml</h3>
-                <p class="preço">R$ 174,25</p>
-            </div>
-            </article>
+                <article class="cardVinhos">
+                    <img src="./src/assets/Catalogo/PizzatoBrut_vinhoBranco.png" alt="Pizzato Brut Branco" />
+                    <hr>
+                    <h3>Pizzato Brut Branco</h3>
+                    <p>R$ 99,99</p>
+                </article>
 
-            <article class="produto">
-                <img src="./src/assets/Catalogo/MonteBrutRose.png" alt="Monte Brut Rose"/>
-            <div class="informacoes">
-                <h3 class="nome">Monte Brut Rose</h3>
-                <p class="preço">R$ 125,00</p>
-            </div>
-            </article>
+                <article class="cardVinhos">
+                    <img src="./src/assets/Catalogo/pizzatoLegno_vinhoBranco.png" alt="Pizzato Legno" />
+                    <hr>
+                    <h3>Pizzato Legno</h3>
+                    <p>R$ 109,99</p>
+                </article>
 
-            <article class="produto">
-                <img src="./src/assets/Catalogo/PizzatoBrutBranco.png" alt="Pizzato Brut Branco"/>
-            <div class="informacoes">   
-                <h3 class="nome">Pizzato Brut Branco</h3>
-                <p class="preço">R$ 97,58</p>
-            </div>  
-            </article>
+                <article class="cardVinhos">
+                    <img src="./src/assets/Catalogo/CarbenetSauvignon_vinhoTinto.png" alt="Monte Carbenet Sauvignon" />
+                    <hr>
+                    <h3>Monte Carbenet </h3>
+                    <p>R$ 249,99</p>
+                </article>
 
-            <article class="produto">
-                <img src="./src/assets/Catalogo/pizzatoLegno.png" alt="Pizzato Legno"/>
-            <div class="informacoes">
-                <h3 class="nome">Pizzato Legno</h3>
-                <p class="preço">R$ 102,35</p>
-            </div>
-            </article>
-
-            <article class="produto">
-                <img src="./src/assets/Catalogo/reservaCarbenetSauvignon.png" alt="Monte Carbenet Sauvignon"/>
-            <div class="informacoes">
-                <h3 class="nome">Monte Carbenet </h3>
-                <p class="preço">R$ 247,36</p>
-            </div>
-            </article>
-
-            <article class="produto">
-                <img src="./src/assets/Catalogo/SaintFrisanteTinto.png" alt="Saint Frisante Tinto"/>
-            <div class="informacoes">
-                <h3 class="nome">Saint Frisante Tinto</h3>
-                <p class="preço">R$ 75,40</p>
-            </div>
-            </article>
-
-        </main>
-
+                <article class="cardVinhos">
+                    <img class="imagemCard" src="src/assets/Catalogo/vinho_tinto.png" alt="Vinho Tinto">
+                    <hr>
+                    <h3>Vinho Country Wine</h3>
+                    <p>R$ 119,99</p>
+                </article>
+            </main>
+        </div>
     </div>
 
-        
-    <footer class="footer">
-            <div class="faq">
-                <h2>Nosso FAQ</h2>
-                <ul>
-                    <li><a href="">1. Como funciona o atendimento da Vinheria Agnello?</a></a></li>
-                    <li><a href="">2. Vocês fazem entregas?</li>
-                    <li><a href="">3. É possível comprar online?</a></li>
-                    <li><a href="">4. Quais são as formas de pagamento aceitas?</a></li>
-                    <li><a href="">5. Como faço para receber promoções e novidades?</a></li>
-                </ul>
+
+    <footer>
+        <div id="teste">
+            <div id="faq">
+                <h2>Nosso FAQ</h1>
+                    <h4>1. Como funciona o atendimento personalizado?</h4>
+                    <p>Você pode contar com indicações especializadas de rótulos, harmonizações e sugestões únicas —
+                        tudo pensado para tornar sua experiência com o vinho ainda mais especial.</p>
+                    <h4>2. Vocês fazem entregas por delivery?</h4>
+                    <p>Sim! Entregamos em toda a cidade de São Paulo. Consulte nossa equipe para saber valores, prazos e
+                        promoções vigentes.</p>
+                    <h4>3. Quais formas de pagamento são aceitas?</h4>
+                    <p>Aceitamos cartões de crédito, débito, Pix e dinheiro. Para compras digitais, consulte as opções
+                        disponíveis com nossa equipe.</p>
             </div>
-            <div id="newsletter">
-                <img src="./src/assets/LogoAgnello_NoBg.png" alt="Logo da empresa Agnello">
-                <p>Inscreva-se e receba promoções exclusivas</p>
-                <input type="email" placeholder=> 
+            <hr id="hr">
+            <!-- Centralizar à direita do footer -->
+            <div id="promocoes">
+                <img src="src/assets/LogoAgnello_NoBg.png" alt="Logo Agnello">
+                <h2>Inscreva-se e receba promoções exclusivas!</h2>
+                <div id="email1">
+                    <div id="email">
+                        <i class='bx bx-envelope'></i>
+                        <input type="text" placeholder="Digite seu email">
+                    </div>
+                    <button id="btnEnviarEmail"><i class='bx bx-right-arrow-alt'></i></button>
+                </div>
+                <div class="direitos">
+                    <p>&copy; 2025 Agnello Vinheria. Todos os direitos reservados.</p>
+                </div>
             </div>
-               
+        </div>
     </footer>
-    
 </body>
+
 </html>
