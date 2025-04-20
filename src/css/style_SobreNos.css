@@ -46,7 +46,7 @@
 }
 
 .header nav ul li a:hover{
-    color:rgb(251, 255, 0);
+    color:#FFD700;
     text-decoration: underline;
     transition:0.6s ;
 }
@@ -65,7 +65,7 @@ i{
     color: #fff
 }
 i:hover{
-    color:rgb(251, 255, 0);
+    color:#FFD700;
     transition:0.6s ;
     border: 1px solid #fff;
     border-radius: 60%;
@@ -122,7 +122,7 @@ i:hover{
 /* começando parte dos integrantes */
 
 .integrantes1{
-    width: 305px;
+    width: 300px;
     height: 128px;
     margin: 100px;
     background :#600606;
@@ -134,7 +134,7 @@ i:hover{
     color: #fff;
     font-weight:bold;
     font-size: 25px;
-    margin: 80px;
+    margin: 77px;
 }
 
 .cargo1{
