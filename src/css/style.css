@@ -3,12 +3,12 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Outfit", sans-serif;
-  overflow-x: hidden;
 
 }
 
 body {
   background-color: #080808;
+  overflow-x: hidden;
 }
 
 /* zerar os espacamentos*/
@@ -209,19 +209,34 @@ header i:hover {
 
 }
 
+#vertudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 /* Final da Section 'Mais Vendidos' */
 
 /* começo dos Cards de Propaganda */
 .cardAd {
   display: flex;
   justify-content: center;
-  gap: 101px;
+  gap: 10rem;
   overflow-y: hidden;
+  margin: 0 5rem;
+  margin-top: 5rem;
+  height: 300px;
+
 }
 
 .cardAd img {
   border-radius: 21px;
   width: 25%;
+  height: 70%;
+  margin-top: 1.2rem;
+
 }
 
 .cardAd img:hover {
@@ -287,32 +302,35 @@ footer {
   color: #fff;
   overflow-y: hidden;
 }
-#teste{
+
+#teste {
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
   max-height: 100%;
   height: 100%;
   gap: 15rem;
   width: 100%;
-  
-  
+
+
 }
-#hr{
+
+#hr {
   width: 0.001%;
   height: 80%;
   background-color: #fff;
   margin-top: 2rem;
   margin-bottom: 13px;
+  margin-right: 78px;
 }
+
 #faq {
   display: flex;
   justify-content: center;
   flex-direction: column;
   margin-left: 5rem;
   gap: 20px;
-  items-align: center;
-  width: 50%;
+  width: 70%;
 
 }
 
@@ -324,33 +342,33 @@ footer {
 
 #faq h4 {
   font-weight: 500;
-  font-size: 15px;
+  font-size: 20px;
   width: 100%;
   white-space: nowrap;
 }
 
 #faq p {
   font-weight: lighter;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 #promocoes {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  items-align: center;
-  margin-right: 7rem;
-  width: 50%;
+  align-items: center;
+  margin-right: 10rem;
+  width: 35%;
 }
 
 #promocoes img {
   display: block;
-  margin-left: 50px;
-  width: 250px;
+  margin: auto;
+  width: 300px;
 }
 
 #promocoes h2 {
-  font-size:18px;
+  font-size: 25px;
   font-weight: 500;
   margin-bottom: 26px;
   white-space: nowrap
@@ -381,24 +399,23 @@ footer {
   background-color: transparent;
   font-size: 25px;
 }
-#email i{
-  color: #fff;
-  font-size: 25px;
 
-  text-align: center;
-}
 #email {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 1rem;
+  padding: 0 0.3rem;
   border-radius: 13px;
   border: 2px solid #fff;
   gap: 10px;
-
-
-  
 }
+
+#email i {
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+}
+
 #btnEnviarEmail i {
   display: block;
   margin: auto;
