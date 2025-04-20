@@ -121,11 +121,13 @@ i:hover{
 
 /* começando parte dos integrantes */
 
+/*arrumar nomes, centralizar o cargo e os retangulos (ver imagem tambem quando dar zoom)*/
+
 .integrantes{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
 }
 .integrantes article {
     display: flex;
@@ -137,18 +139,23 @@ i:hover{
     border-radius: 10px;
     box-shadow: #600606 0px 5px 15px;
 }
-.nome1{
+
+
+.nome{
     color: #fff;
     font-weight:bold;
     font-size: 25px;
+    text-align: left;
 }
 
-.cargo1{
+.cargo{
     font-weight:bold;
     font-weight: 600px;
     font-size: 20px;
     line-height: 100%;
 }
+
+
   
 
 
