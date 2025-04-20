@@ -251,6 +251,11 @@ header i:hover {
 /* Fim dos cards de propaganda */
 
 /* Começo Escolha pelo vinho */
+#escolhavinho{
+  display: flex;
+  flex-direction: column;
+  gap: 12rem;
+}
 #buttonTipoVinho {
   display: flex;
   justify-content: center;
@@ -270,7 +275,158 @@ header i:hover {
 #buttonTipoVinho i {
   color: #71213E;
 }
+#escolhaVinho{
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+#vinho1{
+  width: 350px;
+  height: 150px;
+  border-radius: 20px;
+  margin-top: 5rem;
+  background: linear-gradient(90deg, rgba(113, 33, 62, 1) 0%, rgba(77, 22, 42, 1) 100%);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+#vinho1 img{
+  width: 300px;
+  height: 300px;
+  margin-left: -1.5rem;
+  margin-top: -17rem;
+  position: absolute;
+}
+#vinho1:hover img{
+  margin-top: -18rem;
+  transition: 0.5s;
+}
+#vinho1:hover{
+  transition: 0.5s;
+  opacity: 0.8;
+  cursor: pointer;
 
+}
+#vinho1 h2{
+margin-left: 0rem;
+margin-top: 5rem;
+color: #fff;
+font-size: 30px;
+font-weight: 400;
+
+}
+
+#vinho2{
+  width: 350px;
+  height: 150px;
+  border-radius: 20px;
+  margin-top: 5rem;
+  width: 350px;
+  height: 150px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, rgba(113, 33, 62, 1) 0%, rgba(77, 22, 42, 1) 100%);
+  padding: 1rem;
+}
+#vinho2 img{
+  width: 220px;
+  height: 300px;
+  margin-left: 10rem;
+  margin-top: -19rem;
+  position: absolute;
+}
+#vinho2 h2{
+margin-left: 0rem;
+margin-top: 5rem;
+color: #fff;
+font-size: 30px;
+font-weight: 400;
+word-wrap: break-word; 
+
+
+}
+#vinho2:hover img{
+  margin-top: -20rem;
+  transition: 0.5s;
+}
+#vinho2:hover{
+  transition: 0.5s;
+  opacity: 0.8;
+  cursor: pointer;
+
+}
+#vinho3 {
+  width: 350px;
+  height: 150px;
+  border-radius: 20px;
+  margin-top: 5rem;
+  width: 350px;
+  height: 150px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, rgba(113, 33, 62, 1) 0%, rgba(77, 22, 42, 1) 100%);
+  padding: 1rem;
+}
+#vinho3 img{
+  width: 230px;
+  height: 300px;
+  margin-left: 9.5rem;
+  margin-top: -19rem;
+  position: absolute;
+}
+#vinho3 h2{
+margin-left: 0rem;
+margin-top: 5rem;
+color: #fff;
+font-size: 30px;
+font-weight: 400;
+
+}
+#vinho3:hover img{
+  margin-top: -20rem;
+  transition: 0.5s;
+}
+#vinho3:hover{
+  transition: 0.5s;
+  opacity: 0.8;
+  cursor: pointer;
+
+}
+#vinho4 {
+  width: 350px;
+  height: 150px;
+  border-radius: 20px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 350px;
+  height: 150px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, rgba(113, 33, 62, 1) 0%, rgba(77, 22, 42, 1) 100%);
+  padding: 1rem;
+}
+#vinho4 img{
+  width: 300px;
+  height: 300px;
+  margin-left: 7.5rem;
+  margin-top: -19rem;
+  position: absolute;
+}
+#vinho4 h2{
+margin-left: 0rem;
+margin-top: 3rem;
+color: #fff;
+font-size: 30px;
+font-weight: 400;
+
+}
+#vinho4:hover img{
+  margin-top: -20rem;
+  transition: 0.5s;
+}
+#vinho4:hover{
+  transition: 0.5s;
+  opacity: 0.8;
+  cursor: pointer;
+
+}
 /* começo do Hover botão seção */
 #buttonTipoVinho button:hover {
   transition: 0.5s;
