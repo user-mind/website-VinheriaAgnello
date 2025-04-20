@@ -46,7 +46,7 @@
 }
 
 .header nav ul li a:hover{
-    color:rgb(251, 255, 0);
+    color:#FFD700;
     text-decoration: underline;
     transition:0.6s ;
 }
@@ -65,7 +65,7 @@ i{
     color: #fff
 }
 i:hover{
-    color:rgb(251, 255, 0);
+    color:#FFD700;
     transition:0.6s ;
     border: 1px solid #fff;
     border-radius: 60%;
