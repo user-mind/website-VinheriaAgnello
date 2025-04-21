@@ -75,5 +75,88 @@
 
     /* Encerrando Card de Promoção */
 
+    /* Iniciando Footer */
+    footer {
+        width: 100%;
+        height: 50%;
+        margin: auto;
+        overflow-x: hidden;
+    }
+
+    #conteudoFooter {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        width: 100%;
+        gap: 3.5rem;
+    }
+
+
+    #faq {
+        text-align: center;
+        gap: 15px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    #hr,
+    #faq p {
+        display: none;
+    }
+
+    #faq h4 {
+        font-size: 20px;
+        white-space: wrap;
+        height: 5vh;
+        text-align: center;
+        align-content: center;
+        background-color: #441d2d;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    #faq h4:hover {
+        opacity: 0.65;
+    }
+
+    #promocoes {
+        margin: auto;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #promocoes img {
+        width: 300px;
+    }
+
+    #promocoes h2 {
+        font-size: 20px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    #promocoes #email1 {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    #promocoes input {
+        width: 100%;
+
+    }
+
+    #btnEnviarEmail {
+        width: 3rem;
+        height: 3rem;
+        text-align: center;
+    }
+
+    .direitos {
+        margin-bottom: 20px;
+    }
+    /* Encerrando Footer */
+
 
 }
