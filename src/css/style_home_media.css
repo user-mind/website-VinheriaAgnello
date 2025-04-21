@@ -24,4 +24,28 @@
 
     /* Encerrando Header */
 
+    /* Iniciando Mais vendidos */
+    #secaoMaisVendidos {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+        gap: 35px;
+    }
+
+    .cardVinhos {
+        width: 250px;
+    }
+
+    .cardVinhos h3 {
+        font-size: 18px;
+    }
+
+    .cardVinhos p {
+        font-size: 16px;
+    }
+
+    /* Encerrando Mais vendidos */
+
+
 }
