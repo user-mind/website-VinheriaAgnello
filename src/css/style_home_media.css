@@ -47,5 +47,33 @@
 
     /* Encerrando Mais vendidos */
 
+    /* Iniciando Card de Promoção */
+    .cardAd {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        overflow: visible;
+        align-items: center;
+        gap: 20px;
+        height: 60%;
+    }
+
+    .cardAd img {
+        border-radius: 21px;
+        width: 60%;
+        margin-top: 0rem;
+    }
+
+    .cardAd img:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+
+    .cardAd img:not(:hover) {
+        transition: 0.5s;
+    }
+
+    /* Encerrando Card de Promoção */
+
 
 }
