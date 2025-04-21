@@ -51,7 +51,6 @@ li {
 
   list-style: none;
   font-size: 1.2rem;
-
 }
 
 #logo img {
@@ -243,11 +242,10 @@ header i:not(:hover) {
   display: flex;
   justify-content: center;
   gap: 10rem;
-  overflow-y: hidden;
+  overflow: hidden;
   margin: 0 5rem;
   margin-top: 5rem;
   height: 300px;
-
 }
 
 .cardAd img {
@@ -515,7 +513,7 @@ footer {
   overflow-y: hidden;
 }
 
-#teste {
+#conteudoFooter {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -523,8 +521,6 @@ footer {
   height: 100%;
   gap: 15rem;
   width: 100%;
-
-
 }
 
 #hr {
