@@ -268,7 +268,7 @@ header i:not(:hover) {
 /* Fim dos cards de propaganda */
 
 /* Começo Escolha pelo vinho */
-#escolhavinho {
+#escolhaVinhoArticle {
   display: flex;
   flex-direction: column;
   gap: 12rem;
@@ -295,13 +295,14 @@ header i:not(:hover) {
 }
 
 /* Começando Seção Escolha pelo Vinho */
-#escolhaVinho {
+#escolhaVinhoAside {
   display: flex;
   justify-content: center;
   gap: 5rem;
+  margin-bottom: 3rem;
 }
 
-#vinho1 {
+.vinhoCategoria {
   width: 350px;
   height: 150px;
   border-radius: 20px;
@@ -310,16 +311,24 @@ header i:not(:hover) {
   padding: 1rem;
 }
 
+.vinhoCategoria h2 {
+  margin-left: 0rem;
+  margin-top: 5rem;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+}
+
 #vinho1 img {
-  position: absolute;
   width: 300px;
   height: 300px;
-  margin-left: -1.5rem;
-  margin-top: -17rem;
+  margin-left: 7.5rem;
+  margin-top: -19rem;
+  position: absolute;
 }
 
 #vinho1:hover img {
-  margin-top: -18rem;
+  margin-top: -20rem;
   transition: 0.5s;
 }
 
@@ -334,27 +343,6 @@ header i:not(:hover) {
 
 }
 
-#vinho1 h2 {
-  margin-left: 0rem;
-  margin-top: 5rem;
-  color: #fff;
-  font-size: 30px;
-  font-weight: 400;
-
-}
-
-#vinho2 {
-  width: 350px;
-  height: 150px;
-  border-radius: 20px;
-  margin-top: 5rem;
-  width: 350px;
-  height: 150px;
-  border-radius: 20px;
-  background: linear-gradient(90deg, rgba(113, 33, 62, 1) 0%, rgba(77, 22, 42, 1) 100%);
-  padding: 1rem;
-}
-
 #vinho2 img {
   width: 220px;
   height: 300px;
@@ -362,18 +350,6 @@ header i:not(:hover) {
   margin-top: -19rem;
   position: absolute;
 }
-
-#vinho2 h2 {
-  margin-left: 0rem;
-  margin-top: 5rem;
-  color: #fff;
-  font-size: 30px;
-  font-weight: 400;
-  word-wrap: break-word;
-
-
-}
-
 #vinho2:hover img {
   margin-top: -20rem;
   transition: 0.5s;
@@ -390,33 +366,12 @@ header i:not(:hover) {
 
 }
 
-#vinho3 {
-  width: 350px;
-  height: 150px;
-  border-radius: 20px;
-  margin-top: 5rem;
-  width: 350px;
-  height: 150px;
-  border-radius: 20px;
-  background: linear-gradient(90deg, rgba(113, 33, 62, 1) 0%, rgba(77, 22, 42, 1) 100%);
-  padding: 1rem;
-}
-
 #vinho3 img {
   width: 230px;
   height: 300px;
   margin-left: 9.5rem;
   margin-top: -19rem;
   position: absolute;
-}
-
-#vinho3 h2 {
-  margin-left: 0rem;
-  margin-top: 5rem;
-  color: #fff;
-  font-size: 30px;
-  font-weight: 400;
-
 }
 
 #vinho3:hover img {
@@ -435,19 +390,6 @@ header i:not(:hover) {
 
 }
 
-#vinho4 {
-  width: 350px;
-  height: 150px;
-  border-radius: 20px;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  width: 350px;
-  height: 150px;
-  border-radius: 20px;
-  background: linear-gradient(90deg, rgba(113, 33, 62, 1) 0%, rgba(77, 22, 42, 1) 100%);
-  padding: 1rem;
-}
-
 #vinho4 img {
   width: 300px;
   height: 300px;
@@ -459,10 +401,6 @@ header i:not(:hover) {
 #vinho4 h2 {
   margin-left: 0rem;
   margin-top: 3rem;
-  color: #fff;
-  font-size: 30px;
-  font-weight: 400;
-
 }
 
 #vinho4:hover img {
@@ -478,7 +416,6 @@ header i:not(:hover) {
   transition: 0.5s;
   opacity: 0.8;
   cursor: pointer;
-
 }
 
 /* começo do Hover botão seção */

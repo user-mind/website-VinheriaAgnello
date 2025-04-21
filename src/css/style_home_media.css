@@ -75,6 +75,45 @@
 
     /* Encerrando Card de Promoção */
 
+    /* Iniciando Escolha pelo Vinho */
+
+    #escolhaVinhoArticle {
+        gap: 2rem;
+    }
+    
+    #escolhaVinhoAside {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+        gap: 20px;
+        padding-bottom: 3rem;
+    }
+
+    .vinhoCategoria {
+        cursor: pointer;
+    }
+
+    .vinhoCategoria:hover {
+        transition: 0.5s;
+        border: 2px solid #FFD700;
+        opacity: 0.5;
+    }
+    .vinhoCategoria:not(:hover) {
+        transition: 0.5s;
+        border: 0px solid #FFD700;
+        opacity: 1;
+    }
+
+
+    #vinho1 img {display: none; }
+    #vinho2 img {display: none; }
+    #vinho3 img {display: none; }
+    #vinho4 img {display: none; }
+
+    /* Encerrando Escolha Pelo Vinh */
+
     /* Iniciando Footer */
     footer {
         width: 100%;
@@ -115,6 +154,7 @@
         cursor: pointer;
     }
     #faq h4:hover {
+        transition: 0.2s;
         opacity: 0.65;
     }
 
