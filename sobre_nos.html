@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,49 +8,150 @@
     <link rel="shortcut icon" href="src/assets/LogoAgnello.png">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-   
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
     <title>Sobre</title>
 </head>
+
 <body>
-    <header class="header">
-        <div id="conteudoheader">
-            <div class="logo">
-                <img src="./src/assets/LogoAgnello_NoBg.png" alt="Vinheria Agnello Logo" width="140">
+    <header id="header">
+        <nav class="navbar">
+            <div id="logo">
+                <h2>
+                    <img src="src/assets/LogoAgnello_NoBg.png" width="120">
+                </h2>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="./index.html">Inicio</a></li>
-                    <li><a href="./nossos_vinhos.html">Nossos Vinhos</a></li>
-                    <li><a href="./sobre_nos.html">Sobre</a></li>
+            <div id="conteudoheader">
+                <ul id="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Nossos Vinhos</a></li>
+                    <li><a href="sobre_nos.html">Sobre</a></li>
                 </ul>
-            </nav>
-            <div id="icones">
-                <a href="./login.html"><i class='bx bx-user-circle'></i></a>
+            </div>
+            <div id="user">
+                <a href="login.html"><i class='bx bx-user-circle'></i></a>
                 <a href="#"><i class='bx bx-shopping-bag'></i></a>
             </div>
-        </div>
+        </nav>
     </header>
-    
+
     <aside>
 
-   
-    <h1 class="titulo">Quem somos?</h1>
-    <p>  A Agnello nasceu do encontro entre o tempo e a terra. Entre vinhedos silenciosos e dias que passam no ritmo da natureza, encontramos nosso propósito: criar vinhos que expressem o lugar de onde vêm e o cuidado com que são feitos. Cada garrafa conta uma história— de clima, de solo, de colheitas feitas à mão e de escolhas conscientes. Acreditamos no vinho como uma experiência que vai além do paladar: é memória, é pausa, é celebração.Estamos só começando, mas levamos com a gente a essência do que acreditamos: simplicidade com profundidade, beleza no detalhe e respeito por tudo o que o tempo constrói. </p>
+
+        <h1 class="titulo">Quem somos?</h1>
+        <p> A Agnello nasceu do encontro entre o tempo e a terra. Entre vinhedos silenciosos e dias que passam no ritmo
+            da natureza, encontramos nosso propósito: criar vinhos que expressem o lugar de onde vêm e o cuidado com que
+            são feitos. Cada garrafa conta uma história— de clima, de solo, de colheitas feitas à mão e de escolhas
+            conscientes. Acreditamos no vinho como uma experiência que vai além do paladar: é memória, é pausa, é
+            celebração.Estamos só começando, mas levamos com a gente a essência do que acreditamos: simplicidade com
+            profundidade, beleza no detalhe e respeito por tudo o que o tempo constrói. </p>
     </aside>
     <article>
         <main>
-        <img src="./src/assets/LogoAgnello.png" class="imagem-circular">
+            <img src="./src/assets/LogoAgnello.png" class="imagem-circular">
     </article>
     </main>
-        <h1 class="int">Time de Desenvolvimento</h1>
-
-        <article class="integrantes1">
-            <div>
-                <p class="nome1">Julia Schiavi</p>
-                <p class="cargo1">cargo</p>
-            </div>
+    <h1 class="int">Time de Desenvolvimento</h1>
+    <div class="integrantes">
+        <article>
+            <br>
+            <h1 class="nome">Julia Schiavi</h1>
+            <br>
+            <h1 class="cargo">Desenvolvedora</h1>
         </article>
+        <article>
+            <br>
+            <h1 class="nome">Sofia Bomeny</h1>
+            <br>
+            <h1 class="cargo">Desenvolvedora</h1>
+        </article>
+        <article>
+            <br>
+            <h1 class="nome">Thayna Lopes</h1>
+            <br>
+            <h1 class="cargo">Desenvolvedora</h1>
+        </article>
+        <article>
+            <br>
+            <h1 class="nome">Luis Scacchetti</h1>
+            <br>
+            <h1 class="cargo">Desenvolvedor</h1>
+        </article>
+        <article>
+            <br>
+            <h1 class="nome">Leonardo Kina</h1>
+            <br>
+            <h1 class="cargo">Desenvolvedor</h1>
+        </article>
+    </div>    
+<!-- inicio FAQ 
+    <footer>
+        <div id="teste">
+            <div id="faq">
+                <h2>Nosso FAQ</h1>
+                    <h4>1. Como funciona o atendimento personalizado?</h4>
+                    <p>Você pode contar com indicações especializadas de rótulos, harmonizações e sugestões únicas —
+                        tudo pensado para tornar sua experiência com o vinho ainda mais especial.</p>
+                    <h4>2. Vocês fazem entregas por delivery?</h4>
+                    <p>Sim! Entregamos em toda a cidade de São Paulo. Consulte nossa equipe para saber valores,
+                        prazos e promoções vigentes.</p>
+                    <h4>3. Quais formas de pagamento são aceitas?</h4>
+                    <p>Aceitamos cartões de crédito, débito, Pix e dinheiro. Para compras digitais, consulte as
+                        opções disponíveis com nossa equipe.</p>
+            </div>
+            <hr id="hr">
+             Centralizar à direita do footer 
+            <div id="promocoes">
+                <img src="src/assets/LogoAgnello_NoBg.png" alt="Logo Agnello">
+                <h2>Inscreva-se e receba promoções exclusivas!</h2>
+                <div id="email1">
+                    <div id="email">
+                        <i class='bx bx-envelope'></i>
+                        <input type="text" placeholder="Digite seu email">
+                    </div>
+                    <button id="btnEnviarEmail"><i class='bx bx-right-arrow-alt'></i></button>
+                </div>
+                <div class="direitos">
+                    <p>&copy; 2025 Agnello Vinheria. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>-->
+
+
+    <footer>
+        <div id="teste">
+            <div id="faq">
+                <h2>Nosso FAQ</h1>
+                    <h4>1. Como funciona o atendimento personalizado?</h4>
+                    <p>Você pode contar com indicações especializadas de rótulos, harmonizações e sugestões únicas —
+                        tudo pensado para tornar sua experiência com o vinho ainda mais especial.</p>
+                    <h4>2. Vocês fazem entregas por delivery?</h4>
+                    <p>Sim! Entregamos em toda a cidade de São Paulo. Consulte nossa equipe para saber valores,
+                        prazos e promoções vigentes.</p>
+                    <h4>3. Quais formas de pagamento são aceitas?</h4>
+                    <p>Aceitamos cartões de crédito, débito, Pix e dinheiro. Para compras digitais, consulte as
+                        opções disponíveis com nossa equipe.</p>
+            </div>
+            <hr id="hr">
+            <!-- Centralizar à direita do footer -->
+            <div id="promocoes">
+                <img src="src/assets/LogoAgnello_NoBg.png" alt="Logo Agnello">
+                <h2>Inscreva-se e receba promoções exclusivas!</h2>
+                <div id="email1">
+                    <div id="email">
+                        <i class='bx bx-envelope'></i>
+                        <input type="text" placeholder="Digite seu email">
+                    </div>
+                    <button id="btnEnviarEmail"><i class='bx bx-right-arrow-alt'></i></button>
+                </div>
+                <div class="direitos">
+                    <p>&copy; 2025 Agnello Vinheria. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
