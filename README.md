@@ -8,7 +8,7 @@ Este projeto tem como objetivo digitalizar a experiência única da loja física
 
 ## 🔗 Acesse o site
 
-👉 [https:/www.vinheriaagnello.com.br](https://vinheria-agnello.com.br) *(Link github pages)*
+👉 [https:/www.vinheriaagnello.com.br]([https://vinheria-agnello.com.br](https://user-mind.github.io/website-VinheriaAgnello/)) *(Link github pages)*
 
 ---
 
@@ -37,7 +37,7 @@ Este projeto tem como objetivo digitalizar a experiência única da loja física
 ## 🛠️ Tecnologias Utilizadas
 👉 [Link do Protótipo](https://www.figma.com/design/zh8v8SJekICflc5NUZBkHe/Checkpoint-1---Vinheria-agnello?node-id=0-1&t=GAUIFsSWEXTrvJna-1)
 
-- **Frontend:** HTML5, CSS3, JavaScript (ou framework como React/Vue)
+- **Frontend:** HTML5, CSS3, JavaScript
 - **Protoipagem:** Figma
 - **Hospedagem:** Github pages
 
