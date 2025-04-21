@@ -3,12 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Outfit", sans-serif;
-
 }
 
 body {
-    background: #080808;
+    background-color: #080808;
+    overflow-x: hidden;
 }
+
 
 /* header */
 .navbar {
@@ -20,29 +21,16 @@ body {
     color: #fff;
 }
 
-.navbar::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -2;
-}
-
 #conteudoheader #menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 11rem;
-
 }
 
 li {
-
     list-style: none;
     font-size: 1.2rem;
-
 }
 
 #logo img {
@@ -77,7 +65,7 @@ header i {
 header {
     border-radius: 0 0 20px 20px;
     width: 100%;
-    background-color: #727272;
+    background-color: #141414;
 }
 
 ul li a:hover {
@@ -94,6 +82,13 @@ header i:hover {
 
 }
 
+header i:not(:hover) {
+    transition: 0.6s;
+    color: #fff;
+    border: 0px solid #000;
+    border-radius: 30%;
+}
+
 /* fim da header */
 
 /* conteudo */
@@ -105,8 +100,6 @@ header i:hover {
     /*divide a tela em colunas*/
     gap: 10px;
     padding: 20px;
-
-
 }
 
 /*titulo da pagina*/
@@ -125,9 +118,7 @@ header i:hover {
     flex-direction: column;
     width: 100vh;
     height: 100%;
-    border-right: 1px solid #fff;
-    border-bottom: 1px solid #fff;
-    gap: 50px;
+    border-right: 2.5px solid #ffffff59;
 }
 
 .filtrocheckbox input {
@@ -137,6 +128,8 @@ header i:hover {
 
 .filtro hr {
     margin: 30px 0px 30px 0px;
+    width: 95%;
+    opacity: 0.3;
 }
 
 /* PREÇO */
@@ -145,7 +138,6 @@ header i:hover {
     font-size: 1.5rem;
     color: #fff;
     text-align: left;
-
 }
 
 /*TITULO FILTROS CHECKBOX*/
@@ -170,6 +162,9 @@ header i:hover {
 
 /* Editando Slider */
 .slider {
+    -webkit-appearance: none;
+    /* Sobreescreve o estilo padrão do CSS */
+    appearance: none;
     width: 90%;
     height: 7px;
     border-radius: 5px;
@@ -189,9 +184,13 @@ header i:hover {
 }
 
 /* (Chrome, Opera, Safari, Edge) */
-.slider::-webkit-range-thumb {
-    width: 20px;
-    height: 10px;
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    /* Sobreescreve o estilo padrão do CSS */
+    appearance: none;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
     background: #FFD700;
     cursor: pointer;
 }
@@ -205,7 +204,10 @@ header i:hover {
     cursor: pointer;
 }
 
-/* ORGANIZANDO OS PRODUTOS */
+/* Encerrando Edição de slider */
+
+
+/* Inicio dos Produtos do catalago */
 
 #catalogo {
     display: grid;
@@ -220,7 +222,6 @@ main {
     gap: 30px;
 }
 
-/* produto */
 
 .cardVinhos {
     display: flex;
@@ -264,6 +265,53 @@ main {
     cursor: pointer;
 }
 
+.cardVinhos img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}
+
+.cardVinhos:not(:hover) {
+    transition: 1s;
+    border: 0px solid #000;
+}
+
+.cardVinhos img:not(:hover) {
+    transition: 0.5s;
+}
+
+/* Fim dos produtos do catálago */
+
+/* Definindo botão filtro */
+#barraPrincipal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+#filtro {
+    display: none;
+    padding-right: 20px;
+}
+
+#filtro i {
+    font-size: 40px;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#filtro i:hover {
+    opacity: 0.7;
+}
+
+
+/* Encerrando botão filtro */
+
+
 /* footer */
 
 footer {
@@ -274,7 +322,7 @@ footer {
     overflow-y: hidden;
 }
 
-#teste {
+#conteudoFooter {
     display: flex;
     justify-content: center;
     align-items: center;

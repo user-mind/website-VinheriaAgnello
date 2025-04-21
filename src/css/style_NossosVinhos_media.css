@@ -1,0 +1,153 @@
+/* Media Query para Celulares e Tablets (Pequenos e Largos) */
+@media (max-width: 992px) {
+
+    /* Iniciando Header */
+    #banner h2 {
+        font-size: 45px;
+    }
+
+    #logo img {
+        transition: 0.4;
+        content: url(../assets/LogoAgnelloIcon_NoBg\ -\ Copy.png);
+        width: 90px;
+        height: 90px;
+        margin-left: 1rem;
+    }
+
+    #conteudoheader #menu {
+        gap: 2rem;
+    }
+
+    .titulo {
+        font-size: 45px;
+        margin-bottom: 2rem;
+    }
+
+
+    #filtro {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Encerrando Header */
+
+    .titulo {
+        text-align: center;
+        display: flex;
+        margin: auto;
+        margin-left: 5%;
+    }
+
+    .filtros_container {
+        display: none;
+    }
+
+    #catalogo {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+        gap: 35px;
+    }
+
+    .cardVinhos {
+        width: 250px;
+    }
+
+    .cardVinhos h3 {
+        font-size: 20px;
+    }
+
+    .cardVinhos p {
+        font-size: 18px;
+    }
+
+
+
+    /* Iniciando Footer */
+    footer {
+        width: 100%;
+        height: 50%;
+        margin: auto;
+        overflow-x: hidden;
+    }
+
+    #conteudoFooter {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        width: 100%;
+        gap: 3.5rem;
+    }
+
+
+    #faq {
+        text-align: center;
+        gap: 15px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    #hr,
+    #faq p {
+        display: none;
+    }
+
+    #faq h4 {
+        font-size: 20px;
+        white-space: wrap;
+        height: 5vh;
+        text-align: center;
+        align-content: center;
+        background-color: #441d2d;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    #faq h4:hover {
+        transition: 0.2s;
+        opacity: 0.65;
+    }
+
+    #promocoes {
+        margin: auto;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #promocoes img {
+        width: 300px;
+    }
+
+    #promocoes h2 {
+        font-size: 20px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    #promocoes #email1 {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    #promocoes input {
+        width: 100%;
+
+    }
+
+    #btnEnviarEmail {
+        width: 3rem;
+        height: 3rem;
+        text-align: center;
+    }
+
+    .direitos {
+        margin-bottom: 20px;
+    }
+
+    /* Encerrando Footer */
+
+}

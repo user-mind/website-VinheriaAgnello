@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="src/assets/LogoAgnello.png">
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/style_home_media.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -118,38 +119,55 @@
                 <img src="src/assets/Ad3_frete.jpg" alt="Frete Grátis na primeira compra" title="Compre já!">
             </div>
         </article>
-        <article id="escolhavinho">
+        <article id="escolhaVinhoArticle">
             <div>
-            <!-- Escolha pelo vinho-->
-            <h1 class="titulo">Escolha pelo Vinho</h1>
-            <div id="buttonTipoVinho">
-                <button><i class='bx bx-chevron-left'></i></button>
-                <button><i class='bx bx-chevron-right'></i></button>
-            </div>
-        </div>
-            <aside id="escolhaVinho">
-                <div id="vinho1"><div id="v1"></div>
-                    <h2>Vinho Tinto <img src="./src/assets/Catalogo/vinho_tinto.png" alt=""></h2>
+                <!-- Escolha pelo vinho-->
+                <h1 class="titulo">Escolha pelo Vinho</h1>
+                <div id="buttonTipoVinho">
+                    <button><i class='bx bx-chevron-left'></i></button>
+                    <button><i class='bx bx-chevron-right'></i></button>
                 </div>
-                <div id="vinho2"><h2>Vinho Branco</h2>
-                <img src="./src/assets/Catalogo/vinho_branco.png" alt=""></div>
-                <div id="vinho3"><h2>Vinho Rosé</h2> <img src="./src/assets/Catalogo/vinho_rose.png" alt=""></div>
-                <div id="vinho4"><h2>Vinho<br>Segunda linha </h2><img src="./src/assets/Catalogo/vinho_espumante.png" alt=""></div>
+            </div>
+            <aside id="escolhaVinhoAside">
+                <div class="vinhoCategoria">
+                    <div id="vinho1">
+                        <h2>Vinho Tinto</h2> 
+                        <img src="./src/assets/Catalogo/vinho_tinto.png" alt="">
+                    </div>
+                </div>
+                <div class="vinhoCategoria">
+                    <div id="vinho2">
+                        <h2>Vinho Branco</h2>
+                        <img src="./src/assets/Catalogo/vinho_branco.png" alt="">
+                    </div>
+                </div>
+                <div class="vinhoCategoria">
+                    <div id="vinho3">
+                        <h2>Vinho Rosé</h2> 
+                        <img src="./src/assets/Catalogo/vinho_rose.png" alt="">
+                    </div>
+                </div>
+                <div class="vinhoCategoria">
+                    <div id="vinho4">
+                        <h2>Vinho<br>Espumante</h2>
+                        <img src="./src/assets/Catalogo/vinho_espumante.png" alt="">
+                    </div> 
+                </div>
             </aside>
         </article>
         <footer>
-            <div id="teste">
+            <div id="conteudoFooter">
                 <div id="faq">
-                    <h2>Nosso FAQ</h1>
-                        <h4>1. Como funciona o atendimento personalizado?</h4>
-                        <p>Você pode contar com indicações especializadas de rótulos, harmonizações e sugestões únicas —
-                            tudo pensado para tornar sua experiência com o vinho ainda mais especial.</p>
-                        <h4>2. Vocês fazem entregas por delivery?</h4>
-                        <p>Sim! Entregamos em toda a cidade de São Paulo. Consulte nossa equipe para saber valores,
-                            prazos e promoções vigentes.</p>
-                        <h4>3. Quais formas de pagamento são aceitas?</h4>
-                        <p>Aceitamos cartões de crédito, débito, Pix e dinheiro. Para compras digitais, consulte as
-                            opções disponíveis com nossa equipe.</p>
+                    <h2>Nosso FAQ</h2>
+                    <h4>1. Como funciona o atendimento personalizado?</h4>
+                    <p>Você pode contar com indicações especializadas de rótulos, harmonizações e sugestões únicas —
+                        tudo pensado para tornar sua experiência com o vinho ainda mais especial.</p>
+                    <h4>2. Vocês fazem entregas por delivery?</h4>
+                    <p>Sim! Entregamos em toda a cidade de São Paulo. Consulte nossa equipe para saber valores,
+                        prazos e promoções vigentes.</p>
+                    <h4>3. Quais formas de pagamento são aceitas?</h4>
+                    <p>Aceitamos cartões de crédito, débito, Pix e dinheiro. Para compras digitais, consulte as
+                        opções disponíveis com nossa equipe.</p>
                 </div>
                 <hr id="hr">
                 <!-- Centralizar à direita do footer -->
@@ -159,7 +177,7 @@
                     <div id="email1">
                         <div id="email">
                             <i class='bx bx-envelope'></i>
-                            <input type="text" placeholder="Digite seu email">
+                            <input type="email" placeholder="Digite seu email">
                         </div>
                         <button id="btnEnviarEmail"><i class='bx bx-right-arrow-alt'></i></button>
                     </div>

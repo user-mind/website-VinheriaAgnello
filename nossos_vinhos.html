@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo - Vinheria Agnello</title>
     <link rel="stylesheet" href="./src/css/style_NossosVinhos.css">
+    <link rel="stylesheet" href="./src/css/style_NossosVinhos_media.css">
+
     <link rel="shortcut icon" href="src/assets/LogoAgnello.png">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,15 +38,17 @@
         </nav>
     </header>
 
-    <h1 class="titulo">Vinhos disponíveis</h1>
-
+    <div id="barraPrincipal">
+        <h1 class="titulo">Vinhos disponíveis<h1>
+        <a id="filtro" a="#"><i class='bx bx-filter'></i></a>
+    </div>
     <div id="conteudo">
         <aside class="filtros_container">
             <!-- FILTRO -->
             <div class="filtro">
                 <!-- PREÇO -->
                 <h2 class="titulodosfiltros">Preço</h2>
-                <input type="range" id="preco" name="preco" min="0" max="2000" class="slider">
+                <input type="range" id="preco" name="preco" value="50" min="50" max="2000" class="slider">
                 <!-- FILTROS CHECKBOX -->
                 <hr>
                 <div class="filtrocheckbox">
@@ -65,6 +69,7 @@
                         <li><input type="checkbox" id="saint" name="saint"><label for="saint">Saint</label></li>
                         <li><input type="checkbox" id="fausto" name="fausto"><label for="fausto">Fausto</label></li>
                         <li><input type="checkbox" id="don" name="don"><label for="don">Don</label></li>
+                        <span id="espacamento"></span>
                     </ul>
                 </div>
             </div>
@@ -162,7 +167,7 @@
 
 
     <footer>
-        <div id="teste">
+        <div id="conteudoFooter">
             <div id="faq">
                 <h2>Nosso FAQ</h1>
                     <h4>1. Como funciona o atendimento personalizado?</h4>
