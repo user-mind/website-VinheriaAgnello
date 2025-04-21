@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #080808;
+    background-color: #080808;
     overflow-x: hidden;
 }
 
@@ -21,22 +21,11 @@ body {
     color: #fff;
 }
 
-.navbar::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -2;
-}
-
 #conteudoheader #menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 11rem;
-
 }
 
 li {
@@ -293,6 +282,36 @@ main {
 
 /* Fim dos produtos do catálago */
 
+/* Definindo botão filtro */
+#barraPrincipal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+#filtro {
+    display: none;
+    padding-right: 20px;
+}
+
+#filtro i {
+    font-size: 40px;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#filtro i:hover {
+    opacity: 0.7;
+}
+
+
+/* Encerrando botão filtro */
+
+
 /* footer */
 
 footer {
@@ -303,7 +322,7 @@ footer {
     overflow-y: hidden;
 }
 
-#teste {
+#conteudoFooter {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -444,55 +463,4 @@ footer {
 
 .direitos {
     margin-top: 20px;
-}
-
-@media (max-width: 883px) {
-    .navbar {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .navbar ul li{
-        padding: 3px 0px;
-    }
-
-    #conteudoheader #menu {
-        flex-direction: column;
-        align-items: center;
-        gap: 0rem;
-    }
-
-    #logo img {
-        width: 10rem;
-        height: 4.5rem;
-    }
-
-    .titulo {
-        display: flex;
-        padding-left: 20px;
-    }
-
-    .filtrocheckbox ul li{
-        padding: 0px 5px 0px 0px;
-        display: flex;  
-    }
-
-    #catalogo {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-   
-
-    footer {
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        max-width: auto;
-        gap:0px;  
-        margin: 0px;
-        padding: 0px;
-    }
-    
 }
